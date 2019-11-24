@@ -11,7 +11,7 @@ I wanted to create a web app with multiple connected modles that stores persista
 in your terminal:
 
 ```Ruby
-git clone git@github.com:karmar4/blind-drunk.git
+git clone git@github.com:karmar4/BlindDrunk.git
 cd project
 ```
 
