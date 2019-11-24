@@ -1,0 +1,83 @@
+Started GET "/" for ::1 at 2019-11-21 22:11:38 +1100
+  [1m[35m (20.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/karmarbarrett/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by CocktailsController#index as HTML
+  Rendering cocktails/index.html.erb within layouts/application
+  [1m[36mCocktail Load (61.0ms)[0m  [1m[34mSELECT "cocktails".* FROM "cocktails"[0m
+  ↳ app/views/cocktails/index.html.erb:3
+  [1m[36mIngredient Load (0.7ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+  ↳ app/views/cocktails/index.html.erb:9
+  Rendered cocktails/index.html.erb within layouts/application (105.0ms)
+Started GET "/" for ::1 at 2019-11-21 22:11:44 +1100
+Processing by CocktailsController#index as HTML
+  Rendering cocktails/index.html.erb within layouts/application
+  [1m[36mCocktail Load (1.5ms)[0m  [1m[34mSELECT "cocktails".* FROM "cocktails"[0m
+  ↳ app/views/cocktails/index.html.erb:3
+  [1m[36mIngredient Load (2.2ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+  ↳ app/views/cocktails/index.html.erb:9
+  Rendered cocktails/index.html.erb within layouts/application (12.7ms)
+Started GET "/" for ::1 at 2019-11-21 22:11:54 +1100
+[Webpacker] Compiling...
+Processing by CocktailsController#index as HTML
+  Rendering cocktails/index.html.erb within layouts/application
+  [1m[36mCocktail Load (1.2ms)[0m  [1m[34mSELECT "cocktails".* FROM "cocktails"[0m
+  ↳ app/views/cocktails/index.html.erb:3
+  [1m[36mIngredient Load (1.1ms)[0m  [1m[34mSELECT "ingredients".* FROM "ingredients"[0m
+  ↳ app/views/cocktails/index.html.erb:9
+  Rendered cocktails/index.html.erb within layouts/application (11.4ms)
+[Webpacker] Compiling...
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/karmarbarrett/Dev/blind-drunk/BlindDrunk/public/packs
+[Webpacker] Hash: 98d0c6f80733fe8a49d8
+Version: webpack 4.41.2
+Time: 10140ms
+Built at: 11/21/2019 10:12:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-45454a2250a61bb5ada0.js    526 KiB  application  [emitted] [immutable]  application
+js/application-45454a2250a61bb5ada0.js.map    622 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-45454a2250a61bb5ada0.js js/application-45454a2250a61bb5ada0.js.map
+[./app/javascript/packs/application.js] 865 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 13855ms (Views: 13846.7ms | ActiveRecord: 2.3ms)
+
+
+[Webpacker] Compiled all packs in /Users/karmarbarrett/Dev/blind-drunk/BlindDrunk/public/packs
+[Webpacker] Hash: 98d0c6f80733fe8a49d8
+Version: webpack 4.41.2
+Time: 10227ms
+Built at: 11/21/2019 10:12:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-45454a2250a61bb5ada0.js    526 KiB  application  [emitted] [immutable]  application
+js/application-45454a2250a61bb5ada0.js.map    622 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-45454a2250a61bb5ada0.js js/application-45454a2250a61bb5ada0.js.map
+[./app/javascript/packs/application.js] 865 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 24181ms (Views: 24173.9ms | ActiveRecord: 3.7ms)
+
+
+[Webpacker] Compiled all packs in /Users/karmarbarrett/Dev/blind-drunk/BlindDrunk/public/packs
+[Webpacker] Hash: 98d0c6f80733fe8a49d8
+Version: webpack 4.41.2
+Time: 10639ms
+Built at: 11/21/2019 10:12:08 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-45454a2250a61bb5ada0.js    526 KiB  application  [emitted] [immutable]  application
+js/application-45454a2250a61bb5ada0.js.map    622 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-45454a2250a61bb5ada0.js js/application-45454a2250a61bb5ada0.js.map
+[./app/javascript/packs/application.js] 865 bytes {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 878 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 29875ms (Views: 29763.1ms | ActiveRecord: 75.6ms)
+
+
